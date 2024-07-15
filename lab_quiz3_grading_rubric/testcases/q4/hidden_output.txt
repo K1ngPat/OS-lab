@@ -1,0 +1,30 @@
+offset: 0
+offset: 1024
+Hello, world! test passed
+Elementary tests passed
+Starting comprehensive tests (see details in code)
+offset: 0
+offset: 1024
+offset: 2048
+offset: 3072
+Test 1 passed: allocated 4 chunks of 1KB each
+offset: 2048
+Test 2 passed: dealloc and realloc worked
+offset: 0
+Test 3a passed: Buddies United
+offset: 2048
+Test 3b passed: Buddies United 2nd half
+offset: 2048
+offset: 3072
+Test 3c passed: Allocate with buddy
+offset: 0
+Test 4 passed: full allocation worked
+Test 5 passed: Null returned if out of memory
+offset: 0
+offset: 1024
+offset: 2048
+offset: 3072
+Test 6 passed: Null returned if contiguous memory not available
+offset: 0
+offset: 3072
+Test 7 passed: Null returned if contiguous memory available but in different blocks
